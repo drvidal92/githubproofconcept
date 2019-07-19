@@ -1,0 +1,12 @@
+Dado el alcance del proyecto se han omitido ciertos patrones y características a la hora de realizar el desarrollo.
+
+Para que fuese una solución completa y escalable se podría tener en cuenta lo siguiente:
+
+1. Crear un CoreDataStack Singleton para manejar la lógica del contenedor.
+2. Mostrar icono de loading y mensajes de error o éxito por medio de Toasts. Suelo utilizar esta librería: https://github.com/pkluz/PKHUD
+3. Añadir un icono con mensaje cuando la lista esté vacía. Suelo utilizar esta librería: https://github.com/dzenbot/DZNEmptyDataSet
+4. Crear una vista específica para el ContributorDetail para eliminar los widgets del Storyboard.
+5. Añadir closures a la hora de realizar las llamadas a la API.
+6. Añadir refresh a la lista por medio de la característica pull to refresh.
+7. Integrar OAuth para las llamada a la API
+
